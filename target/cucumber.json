@@ -1,0 +1,515 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify login option display with username and password in login page.",
+        "description": "",
+        "id": "login-page-creation;verify-login-option-display-with-username-and-password-in-login-page.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 782918200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3093008000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3062889600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify login option display with username and password in login page.",
+            "match": {
+              "location": "Login5001.verify_login_option_display_with_username_and_password_in_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify profile page display with valid username and pasword",
+        "description": "",
+        "id": "login-page-creation;verify-profile-page-display-with-valid-username-and-pasword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168744900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3092441600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6219355900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter user name and password and click login",
+            "match": {
+              "location": "Login5001.enter_user_name_and_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3060326200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify user Profile Page display with valid username and password.",
+            "match": {
+              "location": "Login5001.verify_user_Profile_Page_display_with_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify user login not successful with invalid username and password",
+        "description": "",
+        "id": "login-page-creation;verify-user-login-not-successful-with-invalid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150017900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3094262100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6229784000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter invalid username and invalid password and click login",
+            "match": {
+              "location": "Login5001.enter_invalid_username_and_invalid_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3047114900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify user login not successful with invalid username and password",
+            "match": {
+              "location": "Login5001.verify_user_login_not_successful_with_invalid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify user login not successful with invalid username and valid password",
+        "description": "",
+        "id": "login-page-creation;verify-user-login-not-successful-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186257400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3101901400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter invalid username and valid password and click login",
+            "match": {
+              "location": "Login5001.enter_invalid_username_and_valid_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify user login not successful with invalid username and valid password",
+            "match": {
+              "location": "Login5001.verify_user_login_not_successful_with_invalid_username_and_valid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verify user login not successful with valid username and invalid password",
+        "description": "",
+        "id": "login-page-creation;verify-user-login-not-successful-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137898200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1143647600,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca class\u003d\"nav-link\" href\u003d\"#\" id\u003d\"login2\" data-toggle\u003d\"modal\" data-target\u003d\"#logInModal\" style\u003d\"display: none;\"\u003e...\u003c/a\u003e is not clickable at point (28, 20). Other element would receive the click: \u003cimg width\u003d\"50\" height\u003d\"50\" style\u003d\"margin-right:10px\" src\u003d\"bm.png\"\u003e\n  (Session info: chrome\u003d104.0.5112.81)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-P0B4MBC\u0027, ip: \u002726.214.125.145\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0cbf247ceecaa5bd57d0a970dc19a8b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat com.alpha.action.HomePageAction5001.Clickloginlink(HomePageAction5001.java:53)\r\n\tat Stepdefination.Login5001.click_loginlink(Login5001.java:18)\r\n\tat ✽.Then Click loginlink(login5001.feature:29)\r\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Enter valid username and invalid password and click login",
+            "match": {
+              "location": "Login5001.enter_valid_username_and_invalid_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Verify user login not successful with valid username and invalid password",
+            "match": {
+              "location": "Login5001.verify_user_login_not_successful_with_valid_username_and_invalid_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Verify user wont be able to login without username and password",
+        "description": "",
+        "id": "login-page-creation;verify-user-wont-be-able-to-login-without-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139943500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20075289500,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d104.0.5112.81)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-P0B4MBC\u0027, ip: \u002726.214.125.145\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0cbf247ceecaa5bd57d0a970dc19a8b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat com.alpha.action.HomePageAction5001.Clickloginlink(HomePageAction5001.java:53)\r\n\tat Stepdefination.Login5001.click_loginlink(Login5001.java:18)\r\n\tat ✽.Then Click loginlink(login5001.feature:35)\r\n",
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "keep username and password filed empty and click login",
+            "match": {
+              "location": "Login5001.keep_username_and_password_filed_empty_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Verify user wont be able to login without username and password",
+            "match": {
+              "location": "Login5001.verify_user_wont_be_able_to_login_without_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Verify user wont be able to login without username",
+        "description": "",
+        "id": "login-page-creation;verify-user-wont-be-able-to-login-without-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 175270400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3116273100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "enter password and click login",
+            "match": {
+              "location": "Login5001.enter_password_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Verify user wont be able to login without username",
+            "match": {
+              "location": "Login5001.verify_user_wont_be_able_to_login_without_username()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Verify user wont be able to login without password",
+        "description": "",
+        "id": "login-page-creation;verify-user-wont-be-able-to-login-without-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153884000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Launch application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "Contact5001.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1138850300,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca class\u003d\"nav-link\" href\u003d\"#\" id\u003d\"login2\" data-toggle\u003d\"modal\" data-target\u003d\"#logInModal\" style\u003d\"display: none;\"\u003e...\u003c/a\u003e is not clickable at point (28, 20). Other element would receive the click: \u003cimg width\u003d\"50\" height\u003d\"50\" style\u003d\"margin-right:10px\" src\u003d\"bm.png\"\u003e\n  (Session info: chrome\u003d104.0.5112.81)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-P0B4MBC\u0027, ip: \u002726.214.125.145\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0cbf247ceecaa5bd57d0a970dc19a8b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat com.alpha.action.HomePageAction5001.Clickloginlink(HomePageAction5001.java:53)\r\n\tat Stepdefination.Login5001.click_loginlink(Login5001.java:18)\r\n\tat ✽.Then Click loginlink(login5001.feature:47)\r\n",
+              "status": "failed"
+            },
+            "line": 47,
+            "name": "Click loginlink",
+            "match": {
+              "location": "Login5001.click_loginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "enter username and click login",
+            "match": {
+              "location": "Login5001.enter_username_and_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Verify user wont be able to login without password",
+            "match": {
+              "location": "Login5001.verify_user_wont_be_able_to_login_without_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page creation",
+    "description": "",
+    "id": "login-page-creation",
+    "keyword": "Feature",
+    "uri": "login5001.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
